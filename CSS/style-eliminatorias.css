@@ -1,0 +1,12 @@
+#tabela{
+    margin: auto;
+    justify-content: center;
+    margin-top: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fundo{
+    background-image: url(../IMG/fundo\ fifa.png);
+    background-size: cover;
+}
