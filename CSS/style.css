@@ -34,7 +34,65 @@ p{
     border-color: white;
 }
 
-#fundo{
+#fundo-1{
     background-image: url(../IMG/bandeira\ Cabo.png);
+    background-size: cover;
+}
+
+/* Style Formulário */
+
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 68, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 600px;
+    
+}
+
+.textlabel{
+    display: block;
+    color: white;
+}
+
+#fundo-2{
+    background-image: url(../IMG/fundo-gradiente.png);
+    background-size: cover;
+}
+.campotexto {
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    outline: none;
+    transition: 0.33s;
+    background-color: rgb(255, 255, 255);
+    margin-top: 7px;
+}
+
+#benviar {
+    margin-top: 20px;
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style Eliminatórias */
+
+#tabela{
+    margin: auto;
+    justify-content: center;
+    margin-top: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fundo-3{
+    background-image: url(../IMG/fundo\ fifa.png);
     background-size: cover;
 }

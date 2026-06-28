@@ -2,25 +2,58 @@
 
 <head>
     <title> Formulário </title>
-    <link rel="stylesheet" href="../CSS/style-formulario.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
-<body id="fundo">
+<body id="fundo-2">
     <form action="./resultado.html" class="form">
         <label class="textlabel"> Nome: </label>
         <input class="campotexto" type="text" placeholder="Seu Nome">
         <br>
         <label class="textlabel"> Data de Nascimento: </label>
-        <input class="campotexto" type="date" placeholder="00/00/0000">
+        <input class="campotexto" type="date" placeholder="00/00/0000"> 
         <br>
         <label class="textlabel"> E-mail: </label>
         <input class="campotexto" type="email" placeholder="Seu E-mail">
         <br>
         <label class="textlabel"> País: </label>
-        <input class="campotexto" type="text" placeholder="País">
+        <select name="pais" class="campotexto">
+            <option value="Cabo Verde"> Cabo Verde </option>
+            <option value="Brazil"> Brazil </option>
+            <option value="England"> England </option>
+            <option value="Spain"> Spain </option>
+            <option value="Argentina"> Argentina </option> 
+        </select>
         <br>
         <label class="textlabel"> Jogador favorito: </label>
-        <input class="campotexto" type="text" placeholder="Seu jogador favorito">
+        <select name="jogadores" class="campotexto">     
+            <option value="João Paulo"> João Paulo</option>
+            <option value="Márcio da Rosainha"> Márcio da Rosa</option>
+            <option value="Carlos dos Santos"> Carlos dos Santos</option>
+            <option value="Steven Moreira"> Steven Moreira</option>
+            <option value="Wagner Pina"> Wagner Pina</option>
+            <option value="Sidny Cabral"> Sidny Cabral</option>
+            <option value="Logan Costa"> Logan Costa</option>
+            <option value="Pico Lopes"> Pico Lopes</option>
+            <option value="Kelvin Pires"> Kelvin Pires</option>
+            <option value="Stopira"> Stopira</option>
+            <option value="Diney"> Diney</option>
+            <option value="Jamiro Monteiro"> Jamiro Monteiro</option>
+            <option value="Deroy Duarte"> Deroy Duarte</option>
+            <option value="Kevin Pina"> Kevin Pina</option>
+            <option value="Laros Duarte"> Laros Duarte</option>
+            <option value="Telmo Arcanjo"> Telmo Arcanjo</option>
+            <option value="Yannick Semedo"> Yannick Semedo</option>
+            <option value="Vozinha"> Vozinha </option>
+            <option value="Garry Rodrigues"> Garry Rodrigues</option>
+            <option value="Jovane Cabral"> Jovane Cabral</option>
+            <option value="Ryan Mendes"> Ryan Mendes</option>
+            <option value="Nuno da Costa"> Nuno da Costa</option>
+            <option value="Dailon Livramento"> Dailon Livramento</option>
+            <option value="Gilson Benchimol"> Gilson Benchimol</option>
+            <option value="Willy Semedo"> WillY Semedo</option>
+            <option value="Hélio Varela"> Hélio Varela</option>
+        </select>
         <br>
         <button id="benviar" type="submit"> Enviar </button>
     </form>
