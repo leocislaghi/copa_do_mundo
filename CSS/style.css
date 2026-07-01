@@ -2,6 +2,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
 }
 
 #paragrafo{
@@ -90,9 +91,55 @@
     margin-top: 70px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#eliminado{
+    color: white;
 }
 
 #fundo-3{
     background-image: url(../IMG/fundo\ fifa.png);
     background-size: cover;
+}
+
+#botaoEnviar{
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    outline: none;
+    transition: 0.33s;
+    margin-left: 680px;
+    transition: background-color 0.3s; 
+}
+#botaoEnviar:hover{
+    background-color:  rgb(163, 163, 163); ;
+}
+
+.cabecalho ol{
+    display: flex;
+    gap: 20px;          /* espaço entre os tópicos */
+    list-style: none;   /* remove os números */
+    margin: 0;
+    margin-left: 525;
+    padding: 0;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: white;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    outline: none;
+    margin-top: 15px;
+    transition: background-color 0.3s; 
+}
+
+.cabecalho a:hover{
+    background-color: rgb(163, 163, 163);
 }

@@ -9,7 +9,13 @@ function mudar_cor2() {
 }
 
 function mudar_texto() {
-    window.document.getElementById("titulo1").innerText = "VAI CABO VERDE";
+    const titulo = document.getElementById("titulo1");
+
+    if (titulo.innerText === "VAI CABO VERDE") {
+        titulo.innerText = "CABO VERDE";
+    } else {
+        titulo.innerText = "VAI CABO VERDE";
+    }
 }
 
 const paragrafo = document.getElementById("paragrafo");
@@ -19,3 +25,30 @@ function alterarTexto() {
 }
 
 paragrafo.addEventListener("click", alterarTexto);
+
+function redirecionar1() {
+    window.location.href = 'eliminatorias.html';
+}
+
+function eliminado(){
+    window.document.getElementById("eliminado").style.color = "red";
+    window.document.getElementById("eliminado").linha.style.textDecoration = "line-through";
+}
+
+function eliminado2(){
+    window.document.getElementById("eliminado").style.color = "white";
+}
+
+function classificada(id) {
+    const linha = document.getElementById(id);
+
+    linha.style.color = "green";
+    linha.style.fontWeight = "bold";
+}
+
+function normal(id) {
+    const linha = document.getElementById(id);
+
+    linha.style.color = "white";
+    linha.style.fontWeight = "normal";
+}
